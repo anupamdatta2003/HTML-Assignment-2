@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action="express.js" method="get">
+            <div>
+                <label for="name">User's name : </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email address : </label>
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="terms">I agree to the terms and condition</label>
+                <input type="checkbox" name="terms" id="terms">
+            </div>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
